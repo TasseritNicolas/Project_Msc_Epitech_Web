@@ -1,0 +1,263 @@
+body{
+  background-attachment: fixed, scroll;
+ 
+  background-image: url("https://cdn.dribbble.com/users/2925801/screenshots/14267264/media/d6a51702546f256b6d08ead24f6e6ac2.jpg") ;
+}
+.gauche{
+  display:flex;
+  justify-content: flex-start;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:2px solid #909090;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus{
+    border: 2px solid #085ff7;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #085ff7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4f74af;
+    
+  }
+  .formm{
+      width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgb(212, 210, 208);
+  }
+  .formm:hover{
+    border: 1px solid black;
+  }
+.titlecard{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.user{
+  border:3px solid black;
+  margin: 1%;
+  padding: 3px;
+  background-color: #ccc;
+}
+.gorille{
+  text-align: center ;
+}
+ 
+
+  .annonce{
+      background: #ffffff;
+      width: 60%;
+      padding : 15px;
+      margin: 10px auto;
+      border:1px solid rgb(212, 210, 208);
+      border-radius: 6px;
+    
+  }
+  .list{
+    background: #ffffff;
+    width: 70%;
+    padding : 35px;
+    margin: 10px auto;
+    border:1px solid rgb(212, 210, 208);
+    border-radius: 6px;
+  
+}
+  .annonce li {
+      list-style: none;
+  }
+.hidden{
+    display: none;
+}
+.monbouton {
+    background-color: #2557a7;
+    Color:white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: -10px 10px 50px 0.1px rgb(214, 214, 214);
+    text-decoration: none;
+   
+
+  }
+  .monbouton:hover{
+    background-color: #4f74af;
+    
+    
+   
+
+  }
+  .monbouton2 {
+    
+    Color: #2557a7;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    cursor: pointer; 
+   
+    text-decoration: none;
+  }
+.monbouton2:hover{
+  color: #4f74af;
+}
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #2557a7;
+  color: white;
+  padding: 16px 40px;
+  border: none;
+  cursor: pointer;
+ 
+
+  
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+
+
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.headcard{
+  display: flex ;
+  justify-content: space-between;
+}
+.headcard em{
+  padding: 10px
+}
+.headcard h2{
+  margin: 0;
+}
+.navigation{
+  border: 1px solid rgb(46, 46, 46);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.navigation a{
+  color: #001;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 10px;
+  display: inline-block
+ 
+}
+
+.navigation a:hover{
+  color:grey;
+}
+.nav-active::before{
+  content: "";
+  background: #2557a7;
+  height: 3px;
+  width: 100%;
+  display:block;
+  position: relative;
+  top: 67px;
+}
+.logo{
+  display: inline-block;
+  position:relative;
+  
+  
+
+  
+}
+
+.username{
+  color: green;
+  padding: 0 5px;
+}
+.username:before{
+  content: "";
+  background:green;
+  height: 10px;
+  width: 10px;
+  display:inline-block;
+  position: relative;
+  border-radius: 15px;
+  
+  left:-5px;
+  
+}
+.annonce:hover{
+  border: 1px solid black;
+}
